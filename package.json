@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "*",
+    "file-loader": "*",
+    "terser-webpack-plugin": "*",
+    "webpack": "*",
+    "webpack-cli": "*"
+  },
+  "dependencies": {
+    "babel-core": "*",
+    "markdown-it-new-katex": "*"
+  }
+}
